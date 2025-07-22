@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Wellness Spa - Kampala</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: url('A_promotional_advertisement_photograph_for_Privacy.png') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      z-index: 1;
+      font-size: 2.2em;
+      margin: 0;
+    }
+
+    header p {
+      z-index: 1;
+      font-size: 1.1em;
+    }
+
+    .section {
+      padding: 2em 1em;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-body {
+      padding: 1em;
+    }
+
+    .card-body h3 {
+      margin-top: 0;
+      font-size: 1.2em;
+    }
+
+    .cta {
+      background-color: #e91e63;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+
+    .cta a {
+      background-color: white;
+      color: #e91e63;
+      padding: 1em 2em;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1em;
+    }
+
+    footer {
+      background-color: #222;
+      color: #bbb;
+      text-align: center;
+      padding: 1em;
+    }
+
+    @media (min-width: 768px) {
+      .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .card {
+        flex: 1 1 calc(45% - 2em);
+        margin: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Privacy Wellness Spa</h1>
+      <p>Your Private Escape in Kampala</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Signature Experiences</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="A_photograph_for_Privacy_Wellness_Spa_showcases_a_.png" alt="Massage Service" />
+        <div class="card-body">
+          <h3>The Getaway</h3>
+          <p>Couple’s Massage, Room, Dinner, Breakfast – 280,000 UGX</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="A_photograph_captures_a_chef_grilling_meat_outdoor.png" alt="Nyama Choma" />
+        <div class="card-body">
+          <h3>Nyama & Nights</h3>
+          <p>Grilled Nyama Choma + Drinks + Room – 180,000 UGX</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="A_photograph_captures_a_bar_scene_with_four_Africa.png" alt="Bar Scene" />
+        <div class="card-body">
+          <h3>Evening Lounge</h3>
+          <p>Local beers, wine, and private tables for couples or friends</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Book Your Private Moment</h2>
+    <p>We're discreet, romantic, and here for your escape.</p>
+    <a href="https://wa.me/256XXXXXXXXX">Chat on WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Privacy Wellness Spa | Kampala, Uganda
+  </footer>
+</body>
+</html>
